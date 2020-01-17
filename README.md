@@ -2,7 +2,7 @@
 
 **Jayashree Krishnamoorthy – 20 January 2020**
 
-**Getting and Cleaning Data Assignment**
+**Courseera - Getting and Cleaning Data Assignment**
 
 **John Hopkins University**
 
