@@ -27,22 +27,27 @@ The R script (run_analysis.R ) produces the output data set by means of the
 following processing steps (see detailed description below and run_analysis.R
 for further information):
 
-1.  Constructs an initial raw data set containing all ‘test’ and ‘train’ sample
+**Step 1--Create total Data Set by combining test and train data**
+    Constructs an initial raw data set containing all ‘test’ and ‘train’ sample
     data from the existing raw data sets.
-
-2.  Extracts only the measurements on the mean and standard deviation for each
+    
+**Step 2--Extract only Mean and STD variables**
+    Extracts only the measurements on the mean and standard deviation for each
     measurement (and measurement Subject and Activity identifiers) from data
     fram ‘all_data’ (created in 1) into a new data frame ‘extract_data’.
-
-3.  Activity Labels in the ‘extract_data’ data frame are then replaced with
+    
+**Step 3--Use descriptive activity names**
+    Activity Labels in the ‘extract_data’ data frame are then replaced with
     tidy, descriptive variable name values.
-
-4.  Measurement variables in the ‘data_extract’ data frame are changed to ensure
+    
+**Step 4--Appropriately Label Data Set With Descriptive Variable Names**
+    Measurement variables in the ‘data_extract’ data frame are changed to ensure
     that they tidy, descriptive variable names (i.e. readable and composed of
     purely alpha-numeric characters). See Codebook.md for detailed description
     of token-based naming convention applied and full list of variable names.
-
-5.  A second, independent tidy data set with the average of each variable for
+    
+**Step 5--Generate independent tidy data set**
+    A second, independent tidy data set with the average of each variable for
     each activity and each subject is created by use of functions from ‘dplyr’
     library applied to the data frame ‘data_extract’. The final output is saved
     as both a txt file (Assignment_Output.txt) and csv file
