@@ -27,7 +27,7 @@ The R script (run_analysis.R ) produces the output data set by means of the
 following processing steps (see detailed description below and run_analysis.R
 for further information):
 
-**Step 1--Create total Data Set by combining test and train data**
+**Step 1--Create All Data Set by combining test and train data**
     Constructs an initial raw data set containing all ‘test’ and ‘train’ sample
     data from the existing raw data sets.
     
