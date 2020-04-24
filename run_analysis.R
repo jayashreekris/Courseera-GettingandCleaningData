@@ -1,6 +1,6 @@
 ## GETTING AND CLEANING DATA MODULE ASSIGNMENT
 
-## Jayashree Krishnamoorthy - 20 January 2020
+## Jayashree Krishnamoorthy - 24 April 2020
 ## Coursera - Getting and Cleaning Data - Assignment
 ## John Hopkins University
 
