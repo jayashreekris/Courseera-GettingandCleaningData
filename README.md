@@ -1,6 +1,6 @@
 **README.COM**
 
-**Jayashree Krishnamoorthy – 20 January 2020**
+**Jayashree Krishnamoorthy – 24 April 2020**
 
 **Courseera - Getting and Cleaning Data - Assignment**
 
